@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:menu="@menu/resto_menu"
+        tools:itemBackground="@color/colorAccent"
+        />
+
+
+   <ImageView
+       android:id="@+id/imagageView1"
+       android:layout_margin="20dp"
+       android:layout_width="20dp"
+       android:layout_height="50dp"
+       android:src="@drawable/ic_tools"
+       />
+   <Button
+       android:id="@+id/btnChangeImage"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="Change Image"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="email"
+       android:textColor="@color/design_default_color_primary"
+       android:layout_marginTop="60dp"
+      android:layout_marginLeft="-380dp"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="password"
+       android:layout_marginTop="140dp"
+       android:layout_marginLeft="-300dp"/>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/login"
+      android:onClick="login"
+       android:textSize="40sp"
+       android:textColor="@color/colorAccent"
+
+       android:layout_marginTop="280dp"
+       android:layout_marginLeft="-300dp"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

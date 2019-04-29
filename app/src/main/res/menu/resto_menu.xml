@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="add dishes"
+            android:id="@+id/dish_id"
+            android:icon="@drawable/ic_cofee"
+            android:orderInCategory="1">
+
+        </item>
+
+
+        <item
+            android:title="add_receipts"
+            android:id="@+id/receipts_id"
+            android:icon="@drawable/ic_tools"
+            android:orderInCategory="2">
+        </item>
+
+        <item
+            android:title="/view_dishes"
+            android:id="@+id/view_dish_id"
+            android:icon="@drawable/nearby"
+            android:orderInCategory="3"
+            >
+        </item>
+
+        <item
+            android:title="view_receipts"
+            android:id="@+id/view_receipts_id"
+            android:icon="@drawable/full"
+            android:orderInCategory="4">
+        </item>
+    </group>
+
+    <item
+        android:title="my_account">
+        <menu>
+
+            <item
+                android:title="change_password"
+                android:id="@+id/password_id"
+                android:icon="@drawable/nearby"/>
+
+            <item
+                android:title="change_profile_picture"
+                android:id="@+id/picture_id"
+                android:icon="@drawable/foods"/>
+
+
+
+
+        </menu>
+
+
+
+
+
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>
